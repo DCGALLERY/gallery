@@ -3,7 +3,7 @@ layout: post
 author: Le Dinh Cuong
 title: Anton & Quynh | Together
 description: What is love? Those who don't like it call it responsibility. Those who play with it call it a game. Those who don't have it call it a dream. Those who understand it call it destiny. And me, I call it you.
-thumbnail: images/AQ/Thumbnail/1.JPG
+thumbnail: images/AQ/Thumbnail/1.jpg
 categories: [couple]
 tags: [couple, summer]
 time: Jul, 2022
@@ -21,7 +21,7 @@ download: "https://ledinhcuong-my.sharepoint.com/:u:/p/mail/EdLTP6qx_e1BnWnb_S96
             <div class="col-{{ image.col }}">
             <figure class="media media-image {{ image.equal }}" 
                 data-bp='{"imgSrc": "./images/AQ/HD/{{ image.name }}.jpg" , "parentGalleryClass": "gallery-1" }' >
-                <span  style="background-image: url('images/AQ/Thumbnail/{{ image.name }}.JPG')">
+                <span  style="background-image: url('images/AQ/Thumbnail/{{ image.name }}.jpg')">
                 </span>
             </figure>
             </div>
@@ -44,7 +44,7 @@ download: "https://ledinhcuong-my.sharepoint.com/:u:/p/mail/EdLTP6qx_e1BnWnb_S96
         <div class="col-lg-6">
           <figure class="media media-image equal-2-1 equal-lg-1-1" 
             data-bp='{"imgSrc": "./images/AQ/HQ/9.jpg" , "parentGalleryClass": "gallery-1" }' >
-            <span  style="background-image: url('images/AQ/Thumbnail/9.JPG')">
+            <span  style="background-image: url('images/AQ/Thumbnail/9.jpg')">
             </span>
           </figure>
         </div>
@@ -73,7 +73,7 @@ download: "https://ledinhcuong-my.sharepoint.com/:u:/p/mail/EdLTP6qx_e1BnWnb_S96
             <div class="col-{{ image.col }}">
             <figure class="media media-image {{ image.equal }}" 
                 data-bp='{"imgSrc": "./images/AQ/HD/{{ image.name }}.jpg" , "parentGalleryClass": "gallery-1" }' >
-                <span  style="background-image: url('images/AQ/Thumbnail/{{ image.name }}.JPG')">
+                <span  style="background-image: url('images/AQ/Thumbnail/{{ image.name }}.jpg')">
                 </span>
             </figure>
             </div>
