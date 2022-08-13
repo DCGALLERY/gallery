@@ -1,0 +1,118 @@
+{ 
+    "images":
+    [
+        {
+            "name": "1",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "2",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "3",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "4",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "5",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "6",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "7",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "8",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        }
+    ],
+    "images-2":
+    [
+        {
+            "name": "10",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "11",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "12",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "13",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "14",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "15",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "16",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "17",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "18",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "19",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "20",
+            "col": 12,
+            "equal": "equal-2-1"
+        },
+        {
+            "name": "21",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "22",
+            "col": 6,
+            "equal": "equal-2-1 equal-lg-1-1"
+        },
+        {
+            "name": "23",
+            "col": 12,
+            "equal": "equal-2-1"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+<!-- footer -->
+<!-- <footer class="py-15 py-xl-20">
+  <div class="container">
+    <div class="row g-4 g-lg-5 mb-10">
+      <div class="col-md-3 text-center text-md-start">
+        <a href="index-2.html" class="navbar-brand"><img src="assets/logo/logo-black.svg" alt="Logo"></a>
+      </div>
+      <div class="col-md-4 col-lg-5 text-center">
+        <ul class="list-unstyled">
+          {% for link in site.data.app.link-page %}
+          <li class="mb-1"><a href="{{ link.link }}" class="text-reset text-primary-hover">{{link.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="grouped-inputs border p-1 rounded-pill">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control rounded-pill px-3" aria-label="Text input"
+                placeholder="Your email">
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-primary btn-icon rounded-circle"><i class="bi bi-arrow-return-left"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center g-1 g-lg-6 text-muted">
+      <div class="col-md-6 col-lg-5 order-lg-2 text-center">
+        <ul class="list-inline small">
+          <li class="list-inline-item"><a href="#" class="text-reset text-primary-hover"><i class="bi bi-facebook"></i></a></li>
+          <li class="list-inline-item ms-1"><a href="#" class="text-reset text-primary-hover"><i class="bi bi-github"></i></a></li>
+          <li class="list-inline-item ms-1"><a href="#" class="text-reset text-primary-hover"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+        <span class="small">
+         
+              {{ site.data.app.info.address.stress }}, {{ site.data.app.info.address.city }}, {{ site.data.app.info.address.country }} {{ site.data.app.info.address.zip-code }}
+
+        </span>
+      </div>
+      <div class="col-lg-3 order-lg-1 text-center text-md-start">
+        <p class="small">Copyrights © 2022</p>
+      </div>
+    </div>
+  </div>
+</footer> -->
+<footer class="py-15 py-xl-20 bg-black inverted">
+  <div class="container">
+    <div class="row g-4 g-lg-5 mb-10">
+      <div class="col-md-3 text-center text-md-start">
+        <a href="../index.html" class="navbar-brand"><img src="assets/logo/logo-white.svg" alt="Logo"></a>
+      </div>
+      <div class="col-md-4 col-lg-5 text-center text-md-center">
+        <ul class="list-unstyled">
+          {% for link in site.data.app.link-page %}
+          <li class="mb-1"><a href="{{ link.link }}" class="text-reset text-red-hover">{{link.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="grouped-inputs border p-1 rounded-pill">
+          <div class="row">
+            <div class="col">
+              <input type="email" class="form-control rounded-pill px-3" aria-label="Text input" 
+                id="email"
+                name="email" 
+                required="required"
+                placeholder="Your email">
+            </div>
+            <div class="col-auto">
+              <a id="send-email" class="btn btn-white btn-icon rounded-circle"><i class="bi bi-arrow-return-left"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center g-1 g-lg-6 text-muted">
+      <div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start text-lg-center">
+        <ul class="list-inline small">
+          {% for link in site.data.app.link-social %}
+            {% if forloop.index == 1 %}
+              <li class="list-inline-item"><a href="{{ link.link }}" class="text-reset text-red-hover"><i class="bi bi-{{link.name}}"></i></a></li>
+            {% else %}
+              <li class="list-inline-item ms-1"><a href="{{ link.link }}" class="text-reset text-red-hover"><i class="bi bi-{{link.name}}"></i></a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+        <span class="small">
+          {{ site.data.app.info.address.stress }}, {{ site.data.app.info.address.city }}, {{ site.data.app.info.address.country }} {{ site.data.app.info.address.zip-code }}
+        </span>
+      </div>
+      <div class="col-lg-3 order-lg-1 text-center text-md-start">
+        <p class="small">Copyrights © 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="modal-share" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="bi bi-x modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-8 text-center">
+        
+        <h3 id="modalLabel">SHARE</h3>
+        <p class="text-secondary">Continue capturing and sharing your moments with the world...</p>
+          <div class="grouped-inputs p-1 rounded-pill border">
+            <div class="row g-0">
+              <div class="col">
+                <input type="text" id="link-share" class="form-control form-control-lg" readonly="readonly"
+                  value="{{ page.url | prepend: site.url}}">
+              </div>
+              
+              <div class="col-auto d-grid">
+                <a onclick="copyToClipboard()" class="btn btn-red btn-lg rounded-pill text-white"><i id="icon-copy" class="fa-regular fa-copy"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
