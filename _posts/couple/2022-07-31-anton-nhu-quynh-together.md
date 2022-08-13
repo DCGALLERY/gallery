@@ -43,7 +43,7 @@ download: "https://ledinhcuong-my.sharepoint.com/:u:/p/mail/EdLTP6qx_e1BnWnb_S96
 
         <div class="col-lg-6">
           <figure class="media media-image equal-2-1 equal-lg-1-1" 
-            data-bp='{"imgSrc": "./images/AQ/HQ/9.jpg" , "parentGalleryClass": "gallery-1" }' >
+            data-bp='{"imgSrc": "./images/AQ/HD/9.jpg" , "parentGalleryClass": "gallery-1" }' >
             <span  style="background-image: url('images/AQ/Thumbnail/9.jpg')">
             </span>
           </figure>
