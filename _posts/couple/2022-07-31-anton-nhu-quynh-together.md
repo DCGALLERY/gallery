@@ -3,7 +3,7 @@ layout: post
 author: Le Dinh Cuong
 title: Anton & Quynh | Together
 description: What is love? Those who don't like it call it responsibility. Those who play with it call it a game. Those who don't have it call it a dream. Those who understand it call it destiny. And me, I call it you.
-thumbnail: images/AQ/Thumbnail/1.jpg
+thumbnail: images/AQ/Thumbnail/1.JPG
 categories: [couple]
 tags: [couple, summer]
 time: Jul, 2022
